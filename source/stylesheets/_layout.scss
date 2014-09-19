@@ -45,34 +45,34 @@ a {
 }
 
 h1 a:hover {
-  -webkit-animation: hover-change ease 4s infinite alternate;
-  -moz-animation: hover-change ease 4s infinite alternate;
-  animation: hover-change ease 0.4s infinite alternate;
+  -webkit-animation: hover-change ease-out 2s infinite alternate;
+  -moz-animation: hover-change ease-out 2s infinite alternate;
+  animation: hover-change ease-out 2s infinite alternate;
 }
 
 @keyframes hover-change {
-  100% {color: #5EE6A2;}
-   80% {color: #77FFBB;}
-   60% {color: #91FFD5;}
-   40% {color: #AAFFEE;}
-   30% {color: #C4FFFF;}
-    0% {color: #DDFFFF;}
+    0% {color: #5EE6A2;}
+   20% {color: #77FFBB;}
+   40% {color: #91FFD5;}
+   60% {color: #AAFFEE;}
+   80% {color: #C4FFFF;}
+  100% {color: #DDFFFF;}
 }
 
 @-webkit-keyframes hover-change {
-  100% {color: #5EE6A2;}
-   80% {color: #77FFBB;}
-   60% {color: #91FFD5;}
-   40% {color: #AAFFEE;}
-   30% {color: #C4FFFF;}
-    0% {color: #DDFFFF;}
+    0% {color: #5EE6A2;}
+   20% {color: #77FFBB;}
+   40% {color: #91FFD5;}
+   60% {color: #AAFFEE;}
+   80% {color: #C4FFFF;}
+  100% {color: #DDFFFF;}
 }
 
 @-moz-keyframes hover-change {
-  100% {color: #5EE6A2;}
-   80% {color: #77FFBB;}
-   60% {color: #91FFD5;}
-   40% {color: #AAFFEE;}
-   30% {color: #C4FFFF;}
-    0% {color: #DDFFFF;}
+    0% {color: #5EE6A2;}
+   20% {color: #77FFBB;}
+   40% {color: #91FFD5;}
+   60% {color: #AAFFEE;}
+   80% {color: #C4FFFF;}
+  100% {color: #DDFFFF;}
 }
