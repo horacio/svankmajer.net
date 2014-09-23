@@ -85,44 +85,20 @@ a[href="#"] {
   }
 }
 
-h1 a:hover {
-  -webkit-animation: hover-change ease-out 2s infinite alternate;
-  -moz-animation: hover-change ease-out 2s infinite alternate;
-  animation: hover-change ease-out 2s infinite alternate;
-}
+h1 a {
+  color: rgba(51, 51, 51, 0.75);
 
-@keyframes hover-change {
-    0% {color: #5EE6A2;}
-   20% {color: #51D995;}
-   40% {color: #45CD89;}
-   60% {color: #38C07C;}
-   80% {color: #2BB36F;}
-  100% {color: #1EA662;}
   &:hover {
     color: rgba(51, 51, 51, 1);
   }
 }
 
-@-webkit-keyframes hover-change {
-    0% {color: #5EE6A2;}
-   20% {color: #51D995;}
-   40% {color: #45CD89;}
-   60% {color: #38C07C;}
-   80% {color: #2BB36F;}
-  100% {color: #1EA662;}
 p {
   color: rgb(51, 51, 51);
   font-family: Varela Round, sans-serif;
   font-size: 1.25em;
 }
 
-@-moz-keyframes hover-change {
-    0% {color: #5EE6A2;}
-   20% {color: #51D995;}
-   40% {color: #45CD89;}
-   60% {color: #38C07C;}
-   80% {color: #2BB36F;}
-  100% {color: #1EA662;}
 p.first {
   font-weight: bold;
   color: rgb(51, 51, 51);
