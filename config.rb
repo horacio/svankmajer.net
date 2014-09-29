@@ -2,8 +2,6 @@ configure :development do
   activate :livereload
 end
 
-set :css_dir, 'stylesheets'
-
 activate :asset_hash
 activate :directory_indexes
 
