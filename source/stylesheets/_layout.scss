@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-html {
-  background: linear-gradient(darkcyan 10%, tomato) fixed;
-  background: -moz-linear-gradient(darkcyan 10%, tomato) fixed;
-  background: -webkit-linear-gradient(darkcyan 10%, tomato) fixed;
-}
-
 body {
+  background: linear-gradient(darkcyan 25%, #30EFB2) fixed;
+  background: -moz-linear-gradient(darkcyan 25%, #30EFB2) fixed;
+  background: -webkit-linear-gradient(darkcyan 25%, #30EFB2) fixed;
   font-family: "Share Tech Mono";
 }
 
